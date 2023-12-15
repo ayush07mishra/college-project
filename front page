@@ -1,1 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style1.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Web Design Mastery | Raido.</title>
+  <!-- ======== Slider Js ======= -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css"
+/>
+<!-- ======== Favicon ======= -->
+<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+<!-- ======== Boxicons ======= -->
+<link
+  href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+  rel="stylesheet"
+/>
+</head>
+
+<body>
+  <header id="home">
+    
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__logo"><a href="#">Escape the everyday</a></div>
+        <ul class="nav__links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#about">About Us</a></li>
+          <li class="link"><a href="#journals">Journals</a></li>
+          <li class="link"><a href="#gallery">Gallery</a></li>
+          <li class="link"><a href="#contact">Contact</a></li>
+          <li class="link search">
+            <span><i class="ri-search-line"></i></span>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="section__container header__container">
+        
+        
+
+      <h1>Plan Your Epic Adventure & </h1>
+      <h2>Explore the colourful world with us</h2>
+      <br>
+      
+      <button class="btn" <a> <a href="index2.html">Explore more <i class="ri-arrow-right-line"></i></a>
+
+        </a>
+      </button>
+
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <div class="section__container about__container">
+      <div class="about__content">
+        <h2 class="section__header">About us</h2>
+        <p class="section__subheader">
+          Whether you arre looking for a relaxing beach vacation, an adventurous mountain
+          getaway, or a cultural city break, we have something for everyone. Our website is
+          packed with information on hundreds of destinations around the world, including:
+          <br>
+          ● Detailed travel guides: Our travel guides provide in-depth information on each
+          destination, including its history, culture, climate, and best attractions. We
+          also include tips on how to get around, where to stay, and what to eat.
+          <br>
+          ● Our website has hundreds of travel guides and interactive maps to help you
+          choose the perfect place for your next trip.
+
+        </p>
+        <div class="about__flex">
+          <div class="about__card">
+            <h4>268</h4>
+            <p>Trips</p>
+          </div>
+          <div class="about__card">
+            <h4>200+</h4>
+            <p>Activities</p>
+          </div>
+          <div class="about__card">
+            <h4>100</h4>
+            <p>Destinations</p>
+          </div>
+        </div>
+        <button class="btn">
+          Read More <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+      <div class="about__image">
+        <img
+          src="https://images.unsplash.com/photo-1501761095094-94d36f57edbb?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="about" width="100px" />
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="discover" id="discover">
+    <div class="section__container discover__container">
+      <h2 class="section__header">Discover the most engaging places</h2>
+      <p class="section__subheader">
+        Let's see the world with us with your Friends and your family.
+      </p>
+
+
+      <div class="discover__grid">
+        <div class="discover__card">
+          <div class="discover__image">
+            <img
+              src="https://images.unsplash.com/photo-1598960383478-bcc6dddb4781?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGluZG9uZXNpYXxlbnwwfHwwfHx8MA%3D%3D"
+              alt="discover" />
+          </div>
+          <div class="discover__card__content">
+            <h4>Indonesia</h4>
+            <p>
+              Whether you seek cultural immersion, natural wonders, or adventurous experiences, Indonesia has something
+              to captivate every traveler. Embrace the diversity, savor the flavors, and immerse yourself in the rich
+              tapestry of Indonesian life.
+            </p>
+            <button class="discover__btn">
+              Discover More <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+        </div>
+        <div class="discover__card">
+          <div class="discover__image">
+            <img
+              src="https://images.unsplash.com/photo-1553342385-111fd6bc6ab3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEl0YWx5fGVufDB8fDB8fHww"
+              alt="discover" />
+          </div>
+          <div class="discover__card__content">
+            <h4>Italy</h4>
+            <p>
+
+              Italy is a country in Southern Europe that is known for its rich history, culture, and art. It is home to
+              some of the most famous cities in the world, including Rome, Florence, and Venice
+            </p>
+            <button class="discover__btn">
+              Discover More <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+        </div>
+        <div class="discover__card">
+          <div class="discover__image">
+            <img
+              src="https://images.unsplash.com/photo-1607867283465-d6792016b481?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fFN3aXR6ZXJsYW5kfGVufDB8fDB8fHww"
+              alt="discover" />
+          </div>
+          <div class="discover__card__content">
+            <h4>Switzerland</h4>
+            <p>
+
+              Switzerland is a landlocked country in Central Europe. It is famous for its snow-capped mountains,
+              beautiful lakes, and charming villages.It is a great place to visit for outdoor enthusiasts. There are
+              hiking trails of all levels of difficulty, as well as opportunities for rock climbing, kayaking, and
+              rafting.
+              <button class="discover__btn">
+                Discover More <i class="ri-arrow-right-line"></i>
+              </button>
+          </div>
+        </div>
+        <div class="discover__card">
+          <div class="discover__image">
+            <img
+              src="https://images.unsplash.com/photo-1507272931001-fc06c17e4f43?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bm9yd2F5fGVufDB8fDB8fHww"
+              alt="discover" />
+          </div>
+          <div class="discover__card__content">
+            <h4>Norway</h4>
+            <p>
+              Norway is a Scandinavian country known for its stunning natural beauty, including majestic fjords,
+              snow-capped mountains, and glaciers. It is also home to a rich Viking heritage and charming cities like
+              Oslo and Bergen. Here are some important things to know about Norway for travelers
+            </p>
+            <button class="discover__btn">
+              Discover More <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+        </div>
+        <div class="discover__card">
+          <div class="discover__image">
+            <img
+              src="https://images.unsplash.com/photo-1515091943-9d5c0ad475af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aW5kaWF8ZW58MHx8MHx8fDA%3D"
+              alt="discover" />
+          </div>
+          <div class="discover__card__content">
+            <h4>India</h4>
+            <p>
+              India is a vast and diverse country with a rich history and culture. It is a popular tourist destination,
+              known for its stunning scenery, delicious food, and friendly people. However, there are a few things that
+              travelers should be aware of before planning a trip to India
+            </p>
+            <button class="discover__btn">
+              Discover More <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+        </div>
+        <div class="discover__card">
+          <div class="discover__image">
+            <img
+              src="https://images.unsplash.com/photo-1576675466969-38eeae4b41f6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="discover" />
+          </div>
+          <div class="discover__card__content">
+            <h4>Japan</h4>
+            <p>
+              Japan is a fascinating country with a rich history and culture, making it a popular destination for
+              travelers from all over the world. From its bustling cities to its serene countryside, Japan offers
+              something for everyone
+            </p>
+            <button class="discover__btn">
+              Discover More <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <section class="blogs" id="blog">
+    <div class="blogs__container">
+      <h2 class="section__header">Latest on the blogs</h2>
+      <p class="section__subheader">We want to help you to travel better!</p>
+      <div class="blogs__grid">
+        <div class="blogs__card">
+          <img src="https://images.pexels.com/photos/2829336/pexels-photo-2829336.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="blog" />
+          <div class="blogs__content">
+            "The Unexpected Beauty of Solo Travel
+          </div>
+        </div>
+        <div class="blogs__card">
+          <img src="https://images.pexels.com/photos/4992647/pexels-photo-4992647.jpeg?auto=compress&cs=tinysrgb&w=600 "
+            alt="blog" />
+          <div class="blogs__content">
+            "Saving Money While Traveling: Budget-Friendly Tips and Tricks"
+          </div>
+        </div>
+        <div class="blogs__card">
+          <img src="https://images.pexels.com/photos/7672022/pexels-photo-7672022.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="blog" />
+          <div class="blogs__content">
+            The Future of Travel
+          </div>
+        </div>
+        <div class="blogs__card">
+          <img src="https://images.pexels.com/photos/6942435/pexels-photo-6942435.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="blog" />
+          <div class="blogs__content">
+            Travel Photography: Capturing the Essence of a Destination through Lenses"
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+   <!-- Trip Section -->
+   <section class="section trip" id="trips">
+    <div class="title">
+      <h1>
+        Plan Your <br />
+        Trip With Us
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+        deserunt quaerat quasi earum veniam. Accusamus velit adipisci quidem
+        obcaecati molestiae.
+      </p>
+    </div>
+
+    <div class="row container">
+      <div class="swiper-container slider-3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="hd.jpg" alt="hero image" />
+          </div>
+          <div class="swiper-slide">
+            <img src="hd.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="hd.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="hd.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="hd.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="hd.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="hd.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="custom-next d-flex">
+        <i class="bx bx-chevron-right swiper-icon"></i>
+      </div>
+      <div class="custom-prev d-flex">
+        <i class="bx bx-chevron-left swiper-icon"></i>
+      </div>
+      <div class="custom-pagination d-flex"></div>
+    </div>
+    <div class="explore">
+      <a href="#" class="btn">Explore All</a>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="section__container contact__container">
+      <div class="contact__col">
+        <h4>Contact a travel researcher</h4>
+        <p>We always aim to reply within 24 hours.</p>
+      </div>
+      <div class="contact__col">
+        <div class="contact__card">
+          <span><i class="ri-phone-line"></i></span>
+          <h4>Call us</h4>
+          <h5>+91 xxxxxx</h5>
+          <p>We are online now</p>
+        </div>
+      </div>
+      <div class="contact__col">
+        <div class="contact__card">
+          <span><i class="ri-mail-line"></i></span>
+          <h4>Send us an enquiry</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="section__container footer__container">
+
+      <div class="footer__socials">
+        <span>
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="ri-linkedin-fill"></i></a>
+        </span>
+      </div>
+      <p>
+        Cheap Romantic Vacations. Many people feel that there is a limited
+        amount of abundance, wealth, or chance to succeed in life.
+      </p>
+      <ul class="footer__nav">
+        <li class="footer__link"><a href="#home">Home</a></li>
+        <li class="footer__link"><a href="#about">About</a></li>
+        <li class="footer__link"><a href="#discover">Discover</a></li>
+        <li class="footer__link"><a href="#blog">Blog</a></li>
+        <li class="footer__link"><a href="#journals">Journals</a></li>
+        <li class="footer__link"><a href="#gallery">Gallery</a></li>
+        <li class="footer__link"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2023 Web Design Mastery. All rights reserved.
+    </div>
+  </section>
+  <div class="swiper-container slider-1">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="pic-1.jpg" alt="" />
+      </div>
+
+      <div class="swiper-slide">
+        <img src="pic-5.jpg" alt="hero image" />
+      </div>
+      <div class="swiper-slide">
+        <video muted loop autoplay>
+          <source src="video-2.mp4" type="video/mp4" />
+          <source src="video-2.webm" type="video/webm" />
+        </video>
+      </div>
+      <div class="swiper-slide">
+        <img src="pic-6.jpg" alt="hero image" />
+      </div>
+
+      <div class="swiper-slide">
+        <video muted loop autoplay>
+          <source src="video-3.mp4" type="video/mp4" />
+          <source src="video-3.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="swiper-slide">
+        <img src="hero-3.jpg" alt="" />
+      </div>
+
+      <div class="swiper-slide">
+        <video muted loop autoplay>
+          <source src="video-1.mp4" type="video/mp4" />
+          <source src="images_video-1.webm" type="video/webm" />
+        </video>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+
+<!-- ======== SwiperJS ======= -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
+<!-- ======== SCROLL REVEAL ======= -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+<!-- ======== SliderJS ======= -->
+<script src="index1.js"></script>
+<!-- ======== IndexJS ======= -->
+<script src="index_1.js"></script>
+
+  <script src="script1.js"></script>
+</body>
+
+</html>
